@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		096CD58D137033A3009C3FA4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 096CD58C137033A3009C3FA4 /* Cocoa.framework */; };
+		096CD597137033A3009C3FA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 096CD595137033A3009C3FA4 /* InfoPlist.strings */; };
+		096CD59A137033A3009C3FA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 096CD599137033A3009C3FA4 /* main.m */; };
+		096CD59D137033A3009C3FA4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 096CD59B137033A3009C3FA4 /* Credits.rtf */; };
+		096CD5A0137033A3009C3FA4 /* SynXGuiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 096CD59F137033A3009C3FA4 /* SynXGuiAppDelegate.m */; };
+		096CD5A3137033A3009C3FA4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 096CD5A1137033A3009C3FA4 /* MainMenu.xib */; };
+		096CD5AA13703631009C3FA4 /* SynXAgent.sh in Resources */ = {isa = PBXBuildFile; fileRef = 096CD5A913703631009C3FA4 /* SynXAgent.sh */; };
+		096CD5AC1370365B009C3FA4 /* SynXAgent.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 096CD5A913703631009C3FA4 /* SynXAgent.sh */; };
+		096CD5B21370369E009C3FA4 /* SynXDOControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 096CD5B11370369E009C3FA4 /* SynXDOControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		096CD5AB1370363E009C3FA4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				096CD5AC1370365B009C3FA4 /* SynXAgent.sh in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		096CD588137033A3009C3FA4 /* SynXGui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SynXGui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		096CD58C137033A3009C3FA4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		096CD58F137033A3009C3FA4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		096CD590137033A3009C3FA4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		096CD591137033A3009C3FA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		096CD594137033A3009C3FA4 /* SynXGui-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SynXGui-Info.plist"; sourceTree = "<group>"; };
+		096CD596137033A3009C3FA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		096CD598137033A3009C3FA4 /* SynXGui-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SynXGui-Prefix.pch"; sourceTree = "<group>"; };
+		096CD599137033A3009C3FA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		096CD59C137033A3009C3FA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		096CD59E137033A3009C3FA4 /* SynXGuiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SynXGuiAppDelegate.h; sourceTree = "<group>"; };
+		096CD59F137033A3009C3FA4 /* SynXGuiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SynXGuiAppDelegate.m; sourceTree = "<group>"; };
+		096CD5A2137033A3009C3FA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		096CD5A913703631009C3FA4 /* SynXAgent.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = SynXAgent.sh; path = ../SynX/SynXAgent.sh; sourceTree = "<group>"; };
+		096CD5B01370369E009C3FA4 /* SynXDOControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynXDOControl.h; sourceTree = "<group>"; };
+		096CD5B11370369E009C3FA4 /* SynXDOControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SynXDOControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		096CD585137033A3009C3FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096CD58D137033A3009C3FA4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		096CD57D137033A3009C3FA4 = {
+			isa = PBXGroup;
+			children = (
+				096CD5AF1370369E009C3FA4 /* AgentControl */,
+				096CD592137033A3009C3FA4 /* SynXGui */,
+				096CD58B137033A3009C3FA4 /* Frameworks */,
+				096CD589137033A3009C3FA4 /* Products */,
+				096CD5A913703631009C3FA4 /* SynXAgent.sh */,
+			);
+			sourceTree = "<group>";
+		};
+		096CD589137033A3009C3FA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				096CD588137033A3009C3FA4 /* SynXGui.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		096CD58B137033A3009C3FA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				096CD58C137033A3009C3FA4 /* Cocoa.framework */,
+				096CD58E137033A3009C3FA4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		096CD58E137033A3009C3FA4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				096CD58F137033A3009C3FA4 /* AppKit.framework */,
+				096CD590137033A3009C3FA4 /* CoreData.framework */,
+				096CD591137033A3009C3FA4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		096CD592137033A3009C3FA4 /* SynXGui */ = {
+			isa = PBXGroup;
+			children = (
+				096CD59E137033A3009C3FA4 /* SynXGuiAppDelegate.h */,
+				096CD59F137033A3009C3FA4 /* SynXGuiAppDelegate.m */,
+				096CD5A1137033A3009C3FA4 /* MainMenu.xib */,
+				096CD593137033A3009C3FA4 /* Supporting Files */,
+			);
+			path = SynXGui;
+			sourceTree = "<group>";
+		};
+		096CD593137033A3009C3FA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				096CD594137033A3009C3FA4 /* SynXGui-Info.plist */,
+				096CD595137033A3009C3FA4 /* InfoPlist.strings */,
+				096CD598137033A3009C3FA4 /* SynXGui-Prefix.pch */,
+				096CD599137033A3009C3FA4 /* main.m */,
+				096CD59B137033A3009C3FA4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		096CD5AF1370369E009C3FA4 /* AgentControl */ = {
+			isa = PBXGroup;
+			children = (
+				096CD5B01370369E009C3FA4 /* SynXDOControl.h */,
+				096CD5B11370369E009C3FA4 /* SynXDOControl.m */,
+			);
+			name = AgentControl;
+			path = ../SynX/SynXAgent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		096CD587137033A3009C3FA4 /* SynXGui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 096CD5A6137033A3009C3FA4 /* Build configuration list for PBXNativeTarget "SynXGui" */;
+			buildPhases = (
+				096CD584137033A3009C3FA4 /* Sources */,
+				096CD585137033A3009C3FA4 /* Frameworks */,
+				096CD586137033A3009C3FA4 /* Resources */,
+				096CD5AB1370363E009C3FA4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SynXGui;
+			productName = SynXGui;
+			productReference = 096CD588137033A3009C3FA4 /* SynXGui.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		096CD57F137033A3009C3FA4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 096CD582137033A3009C3FA4 /* Build configuration list for PBXProject "SynXGui" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 096CD57D137033A3009C3FA4;
+			productRefGroup = 096CD589137033A3009C3FA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				096CD587137033A3009C3FA4 /* SynXGui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		096CD586137033A3009C3FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096CD597137033A3009C3FA4 /* InfoPlist.strings in Resources */,
+				096CD59D137033A3009C3FA4 /* Credits.rtf in Resources */,
+				096CD5A3137033A3009C3FA4 /* MainMenu.xib in Resources */,
+				096CD5AA13703631009C3FA4 /* SynXAgent.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		096CD584137033A3009C3FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096CD59A137033A3009C3FA4 /* main.m in Sources */,
+				096CD5A0137033A3009C3FA4 /* SynXGuiAppDelegate.m in Sources */,
+				096CD5B21370369E009C3FA4 /* SynXDOControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		096CD595137033A3009C3FA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				096CD596137033A3009C3FA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		096CD59B137033A3009C3FA4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				096CD59C137033A3009C3FA4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		096CD5A1137033A3009C3FA4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				096CD5A2137033A3009C3FA4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		096CD5A4137033A3009C3FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		096CD5A5137033A3009C3FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		096CD5A7137033A3009C3FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SynXGui/SynXGui-Prefix.pch";
+				INFOPLIST_FILE = "SynXGui/SynXGui-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		096CD5A8137033A3009C3FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SynXGui/SynXGui-Prefix.pch";
+				INFOPLIST_FILE = "SynXGui/SynXGui-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		096CD582137033A3009C3FA4 /* Build configuration list for PBXProject "SynXGui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096CD5A4137033A3009C3FA4 /* Debug */,
+				096CD5A5137033A3009C3FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		096CD5A6137033A3009C3FA4 /* Build configuration list for PBXNativeTarget "SynXGui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096CD5A7137033A3009C3FA4 /* Debug */,
+				096CD5A8137033A3009C3FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 096CD57F137033A3009C3FA4 /* Project object */;
+}

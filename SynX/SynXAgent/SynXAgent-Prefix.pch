@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SynXAgent' target in the 'SynXAgent' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#endif

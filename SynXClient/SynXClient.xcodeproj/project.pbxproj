@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0975AA6913530CC800A064B0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0975AA6813530CC700A064B0 /* AppKit.framework */; };
+		09BA7E61134E4EEF0006509D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BA7E60134E4EEF0006509D /* Foundation.framework */; };
+		09BA7E64134E4EEF0006509D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BA7E63134E4EEF0006509D /* main.m */; };
+		09C8178313537A8700FB7FA9 /* TBNetwork.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09C8178213537A8700FB7FA9 /* TBNetwork.framework */; };
+		09C8178D13537EC700FB7FA9 /* TBNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C8178213537A8700FB7FA9 /* TBNetwork.framework */; };
+		09FB4A17136EFFD900250A5F /* SCEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FB4A11136EFFD900250A5F /* SCEvent.m */; };
+		09FB4A18136EFFD900250A5F /* SCEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FB4A14136EFFD900250A5F /* SCEvents.m */; };
+		09FB4A19136EFFD900250A5F /* FileSystemCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FB4A16136EFFD900250A5F /* FileSystemCache.m */; };
+		09FB4A1D136F002B00250A5F /* SynXClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FB4A1C136F002B00250A5F /* SynXClient.m */; };
+		09FB4A1F136F017A00250A5F /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FB4A1E136F017A00250A5F /* CoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		09BA7E5A134E4EEF0006509D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				09C8178313537A8700FB7FA9 /* TBNetwork.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0975AA6813530CC700A064B0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		09BA7E5C134E4EEF0006509D /* SynXClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SynXClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		09BA7E60134E4EEF0006509D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09BA7E63134E4EEF0006509D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09BA7E66134E4EEF0006509D /* SynXClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SynXClient-Prefix.pch"; sourceTree = "<group>"; };
+		09BA7E67134E4EEF0006509D /* SynXClient.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SynXClient.1; sourceTree = "<group>"; };
+		09C8178213537A8700FB7FA9 /* TBNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TBNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FB4A10136EFFD900250A5F /* SCEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCEvent.h; sourceTree = "<group>"; };
+		09FB4A11136EFFD900250A5F /* SCEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCEvent.m; sourceTree = "<group>"; };
+		09FB4A12136EFFD900250A5F /* SCEventListenerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCEventListenerProtocol.h; sourceTree = "<group>"; };
+		09FB4A13136EFFD900250A5F /* SCEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCEvents.h; sourceTree = "<group>"; };
+		09FB4A14136EFFD900250A5F /* SCEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCEvents.m; sourceTree = "<group>"; };
+		09FB4A15136EFFD900250A5F /* FileSystemCache.h */ = {isa = PBXFileReference; fileEncoding = 4; path = FileSystemCache.h; sourceTree = "<group>"; };
+		09FB4A16136EFFD900250A5F /* FileSystemCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileSystemCache.m; sourceTree = "<group>"; };
+		09FB4A1B136F002A00250A5F /* SynXClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynXClient.h; sourceTree = "<group>"; };
+		09FB4A1C136F002B00250A5F /* SynXClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SynXClient.m; sourceTree = "<group>"; };
+		09FB4A1E136F017A00250A5F /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09BA7E59134E4EEF0006509D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FB4A1F136F017A00250A5F /* CoreServices.framework in Frameworks */,
+				09BA7E61134E4EEF0006509D /* Foundation.framework in Frameworks */,
+				0975AA6913530CC800A064B0 /* AppKit.framework in Frameworks */,
+				09C8178D13537EC700FB7FA9 /* TBNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09BA7E51134E4EEF0006509D = {
+			isa = PBXGroup;
+			children = (
+				09BA7E62134E4EEF0006509D /* SynXClient */,
+				09BA7E5F134E4EEF0006509D /* Frameworks */,
+				09BA7E5D134E4EEF0006509D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09BA7E5D134E4EEF0006509D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09BA7E5C134E4EEF0006509D /* SynXClient */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09BA7E5F134E4EEF0006509D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09FB4A1E136F017A00250A5F /* CoreServices.framework */,
+				09C8178213537A8700FB7FA9 /* TBNetwork.framework */,
+				0975AA6813530CC700A064B0 /* AppKit.framework */,
+				09BA7E60134E4EEF0006509D /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09BA7E62134E4EEF0006509D /* SynXClient */ = {
+			isa = PBXGroup;
+			children = (
+				09FB4A10136EFFD900250A5F /* SCEvent.h */,
+				09FB4A11136EFFD900250A5F /* SCEvent.m */,
+				09FB4A12136EFFD900250A5F /* SCEventListenerProtocol.h */,
+				09FB4A13136EFFD900250A5F /* SCEvents.h */,
+				09FB4A14136EFFD900250A5F /* SCEvents.m */,
+				09FB4A15136EFFD900250A5F /* FileSystemCache.h */,
+				09FB4A16136EFFD900250A5F /* FileSystemCache.m */,
+				09BA7E63134E4EEF0006509D /* main.m */,
+				09BA7E67134E4EEF0006509D /* SynXClient.1 */,
+				09BA7E65134E4EEF0006509D /* Supporting Files */,
+				09FB4A1B136F002A00250A5F /* SynXClient.h */,
+				09FB4A1C136F002B00250A5F /* SynXClient.m */,
+			);
+			path = SynXClient;
+			sourceTree = "<group>";
+		};
+		09BA7E65134E4EEF0006509D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09BA7E66134E4EEF0006509D /* SynXClient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09BA7E5B134E4EEF0006509D /* SynXClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09BA7E6A134E4EEF0006509D /* Build configuration list for PBXNativeTarget "SynXClient" */;
+			buildPhases = (
+				09BA7E58134E4EEF0006509D /* Sources */,
+				09BA7E59134E4EEF0006509D /* Frameworks */,
+				09BA7E5A134E4EEF0006509D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SynXClient;
+			productName = SynXClient;
+			productReference = 09BA7E5C134E4EEF0006509D /* SynXClient */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09BA7E53134E4EEF0006509D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tage Borg";
+			};
+			buildConfigurationList = 09BA7E56134E4EEF0006509D /* Build configuration list for PBXProject "SynXClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09BA7E51134E4EEF0006509D;
+			productRefGroup = 09BA7E5D134E4EEF0006509D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09BA7E5B134E4EEF0006509D /* SynXClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09BA7E58134E4EEF0006509D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BA7E64134E4EEF0006509D /* main.m in Sources */,
+				09FB4A17136EFFD900250A5F /* SCEvent.m in Sources */,
+				09FB4A18136EFFD900250A5F /* SCEvents.m in Sources */,
+				09FB4A19136EFFD900250A5F /* FileSystemCache.m in Sources */,
+				09FB4A1D136F002B00250A5F /* SynXClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09BA7E68134E4EEF0006509D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		09BA7E69134E4EEF0006509D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		09BA7E6B134E4EEF0006509D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../DerivedData/SynXWorkspace/Build/Products/Debug\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SynXClient/SynXClient-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09BA7E6C134E4EEF0006509D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../DerivedData/SynXWorkspace/Build/Products/Debug\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SynXClient/SynXClient-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09BA7E56134E4EEF0006509D /* Build configuration list for PBXProject "SynXClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BA7E68134E4EEF0006509D /* Debug */,
+				09BA7E69134E4EEF0006509D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09BA7E6A134E4EEF0006509D /* Build configuration list for PBXNativeTarget "SynXClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BA7E6B134E4EEF0006509D /* Debug */,
+				09BA7E6C134E4EEF0006509D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09BA7E53134E4EEF0006509D /* Project object */;
+}

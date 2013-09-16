@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SynXClient' target in the 'SynXClient' project
+//
+
+#ifdef __OBJC__
+  #import <Foundation/Foundation.h>
+#endif

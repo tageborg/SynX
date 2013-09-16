@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0981EFFD136ADE43007A8D21 /* TBFileTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0981EFFB136ADE43007A8D21 /* TBFileTransfer.h */; };
+		0981EFFE136ADE43007A8D21 /* TBFileTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981EFFC136ADE43007A8D21 /* TBFileTransfer.m */; };
+		09BA7E7D134E4F120006509D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BA7E7C134E4F120006509D /* Cocoa.framework */; };
+		09BA7E87134E4F120006509D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09BA7E85134E4F120006509D /* InfoPlist.strings */; };
+		09BA7E8F134E4F120006509D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BA7E7C134E4F120006509D /* Cocoa.framework */; };
+		09BA7E92134E4F120006509D /* TBNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BA7E79134E4F120006509D /* TBNetwork.framework */; };
+		09BA7E98134E4F120006509D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09BA7E96134E4F120006509D /* InfoPlist.strings */; };
+		09BA7E9B134E4F120006509D /* TBNetworkTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 09BA7E9A134E4F120006509D /* TBNetworkTests.h */; };
+		09BA7E9D134E4F120006509D /* TBNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BA7E9C134E4F120006509D /* TBNetworkTests.m */; };
+		09BA7EA8134E4F680006509D /* TBServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 09BA7EA6134E4F680006509D /* TBServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09BA7EA9134E4F680006509D /* TBServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BA7EA7134E4F680006509D /* TBServer.m */; };
+		09BA7EAA134E4F680006509D /* TBServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BA7EA7134E4F680006509D /* TBServer.m */; };
+		09BA7EAD134E4F7D0006509D /* TBClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 09BA7EAB134E4F7D0006509D /* TBClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09BA7EAE134E4F7D0006509D /* TBClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BA7EAC134E4F7D0006509D /* TBClient.m */; };
+		09BA7EAF134E4F7D0006509D /* TBClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BA7EAC134E4F7D0006509D /* TBClient.m */; };
+		09BA7EB2134E4F9F0006509D /* TBBonjourWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 09BA7EB0134E4F9F0006509D /* TBBonjourWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09BA7EB3134E4F9F0006509D /* TBBonjourWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BA7EB1134E4F9F0006509D /* TBBonjourWrapper.m */; };
+		09BA7EB4134E4F9F0006509D /* TBBonjourWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BA7EB1134E4F9F0006509D /* TBBonjourWrapper.m */; };
+		09BA7EB7134E4FFB0006509D /* TBFileTransferConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 09BA7EB5134E4FFB0006509D /* TBFileTransferConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09BA7EB8134E4FFB0006509D /* TBFileTransferConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BA7EB6134E4FFB0006509D /* TBFileTransferConnection.m */; };
+		09BA7EB9134E4FFB0006509D /* TBFileTransferConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BA7EB6134E4FFB0006509D /* TBFileTransferConnection.m */; };
+		09BA7EC0134E58050006509D /* TBConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 09BA7EBE134E58050006509D /* TBConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09BA7EC1134E58050006509D /* TBConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BA7EBF134E58050006509D /* TBConnection.m */; };
+		09BA7EC2134E58050006509D /* TBConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BA7EBF134E58050006509D /* TBConnection.m */; };
+		09C8171B1352473C00FB7FA9 /* TBNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 09C8171A1352473C00FB7FA9 /* TBNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09BA7E90134E4F120006509D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09BA7E6F134E4F120006509D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09BA7E78134E4F120006509D;
+			remoteInfo = TBNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0981EFFB136ADE43007A8D21 /* TBFileTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBFileTransfer.h; sourceTree = "<group>"; };
+		0981EFFC136ADE43007A8D21 /* TBFileTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBFileTransfer.m; sourceTree = "<group>"; };
+		09BA7E79134E4F120006509D /* TBNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09BA7E7C134E4F120006509D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		09BA7E7F134E4F120006509D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		09BA7E80134E4F120006509D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		09BA7E81134E4F120006509D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09BA7E84134E4F120006509D /* TBNetwork-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBNetwork-Info.plist"; sourceTree = "<group>"; };
+		09BA7E86134E4F120006509D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09BA7E88134E4F120006509D /* TBNetwork-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TBNetwork-Prefix.pch"; sourceTree = "<group>"; };
+		09BA7E8E134E4F120006509D /* TBNetworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBNetworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09BA7E95134E4F120006509D /* TBNetworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBNetworkTests-Info.plist"; sourceTree = "<group>"; };
+		09BA7E97134E4F120006509D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09BA7E99134E4F120006509D /* TBNetworkTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TBNetworkTests-Prefix.pch"; sourceTree = "<group>"; };
+		09BA7E9A134E4F120006509D /* TBNetworkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBNetworkTests.h; sourceTree = "<group>"; };
+		09BA7E9C134E4F120006509D /* TBNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBNetworkTests.m; sourceTree = "<group>"; };
+		09BA7EA6134E4F680006509D /* TBServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBServer.h; sourceTree = "<group>"; };
+		09BA7EA7134E4F680006509D /* TBServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBServer.m; sourceTree = "<group>"; };
+		09BA7EAB134E4F7D0006509D /* TBClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBClient.h; sourceTree = "<group>"; };
+		09BA7EAC134E4F7D0006509D /* TBClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBClient.m; sourceTree = "<group>"; };
+		09BA7EB0134E4F9F0006509D /* TBBonjourWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBBonjourWrapper.h; sourceTree = "<group>"; };
+		09BA7EB1134E4F9F0006509D /* TBBonjourWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBBonjourWrapper.m; sourceTree = "<group>"; };
+		09BA7EB5134E4FFB0006509D /* TBFileTransferConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBFileTransferConnection.h; sourceTree = "<group>"; };
+		09BA7EB6134E4FFB0006509D /* TBFileTransferConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBFileTransferConnection.m; sourceTree = "<group>"; };
+		09BA7EBE134E58050006509D /* TBConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBConnection.h; sourceTree = "<group>"; };
+		09BA7EBF134E58050006509D /* TBConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBConnection.m; sourceTree = "<group>"; };
+		09C8171A1352473C00FB7FA9 /* TBNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBNetwork.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09BA7E75134E4F120006509D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BA7E7D134E4F120006509D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BA7E8A134E4F120006509D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BA7E8F134E4F120006509D /* Cocoa.framework in Frameworks */,
+				09BA7E92134E4F120006509D /* TBNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09BA7E6D134E4F120006509D = {
+			isa = PBXGroup;
+			children = (
+				09BA7E82134E4F120006509D /* TBNetwork */,
+				09BA7E93134E4F120006509D /* TBNetworkTests */,
+				09BA7E7B134E4F120006509D /* Frameworks */,
+				09BA7E7A134E4F120006509D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09BA7E7A134E4F120006509D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09BA7E79134E4F120006509D /* TBNetwork.framework */,
+				09BA7E8E134E4F120006509D /* TBNetworkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09BA7E7B134E4F120006509D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09BA7E7C134E4F120006509D /* Cocoa.framework */,
+				09BA7E7E134E4F120006509D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09BA7E7E134E4F120006509D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09BA7E7F134E4F120006509D /* AppKit.framework */,
+				09BA7E80134E4F120006509D /* CoreData.framework */,
+				09BA7E81134E4F120006509D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		09BA7E82134E4F120006509D /* TBNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				0981EFFB136ADE43007A8D21 /* TBFileTransfer.h */,
+				0981EFFC136ADE43007A8D21 /* TBFileTransfer.m */,
+				09BA7E83134E4F120006509D /* Supporting Files */,
+				09BA7EA6134E4F680006509D /* TBServer.h */,
+				09BA7EA7134E4F680006509D /* TBServer.m */,
+				09BA7EAB134E4F7D0006509D /* TBClient.h */,
+				09BA7EAC134E4F7D0006509D /* TBClient.m */,
+				09BA7EB0134E4F9F0006509D /* TBBonjourWrapper.h */,
+				09BA7EB1134E4F9F0006509D /* TBBonjourWrapper.m */,
+				09BA7EB5134E4FFB0006509D /* TBFileTransferConnection.h */,
+				09BA7EB6134E4FFB0006509D /* TBFileTransferConnection.m */,
+				09BA7EBE134E58050006509D /* TBConnection.h */,
+				09BA7EBF134E58050006509D /* TBConnection.m */,
+				09C8171A1352473C00FB7FA9 /* TBNetwork.h */,
+			);
+			path = TBNetwork;
+			sourceTree = "<group>";
+		};
+		09BA7E83134E4F120006509D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09BA7E84134E4F120006509D /* TBNetwork-Info.plist */,
+				09BA7E85134E4F120006509D /* InfoPlist.strings */,
+				09BA7E88134E4F120006509D /* TBNetwork-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09BA7E93134E4F120006509D /* TBNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				09BA7E9A134E4F120006509D /* TBNetworkTests.h */,
+				09BA7E9C134E4F120006509D /* TBNetworkTests.m */,
+				09BA7E94134E4F120006509D /* Supporting Files */,
+			);
+			path = TBNetworkTests;
+			sourceTree = "<group>";
+		};
+		09BA7E94134E4F120006509D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09BA7E95134E4F120006509D /* TBNetworkTests-Info.plist */,
+				09BA7E96134E4F120006509D /* InfoPlist.strings */,
+				09BA7E99134E4F120006509D /* TBNetworkTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09BA7E76134E4F120006509D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C8171B1352473C00FB7FA9 /* TBNetwork.h in Headers */,
+				09BA7EA8134E4F680006509D /* TBServer.h in Headers */,
+				09BA7EAD134E4F7D0006509D /* TBClient.h in Headers */,
+				09BA7EB2134E4F9F0006509D /* TBBonjourWrapper.h in Headers */,
+				09BA7EB7134E4FFB0006509D /* TBFileTransferConnection.h in Headers */,
+				09BA7EC0134E58050006509D /* TBConnection.h in Headers */,
+				0981EFFD136ADE43007A8D21 /* TBFileTransfer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09BA7E78134E4F120006509D /* TBNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09BA7EA0134E4F120006509D /* Build configuration list for PBXNativeTarget "TBNetwork" */;
+			buildPhases = (
+				09BA7E74134E4F120006509D /* Sources */,
+				09BA7E75134E4F120006509D /* Frameworks */,
+				09BA7E76134E4F120006509D /* Headers */,
+				09BA7E77134E4F120006509D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBNetwork;
+			productName = TBNetwork;
+			productReference = 09BA7E79134E4F120006509D /* TBNetwork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		09BA7E8D134E4F120006509D /* TBNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09BA7EA3134E4F120006509D /* Build configuration list for PBXNativeTarget "TBNetworkTests" */;
+			buildPhases = (
+				09BA7E89134E4F120006509D /* Sources */,
+				09BA7E8A134E4F120006509D /* Frameworks */,
+				09BA7E8B134E4F120006509D /* Resources */,
+				09BA7E8C134E4F120006509D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09BA7E91134E4F120006509D /* PBXTargetDependency */,
+			);
+			name = TBNetworkTests;
+			productName = TBNetworkTests;
+			productReference = 09BA7E8E134E4F120006509D /* TBNetworkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09BA7E6F134E4F120006509D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tage Borg";
+			};
+			buildConfigurationList = 09BA7E72134E4F120006509D /* Build configuration list for PBXProject "TBNetwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09BA7E6D134E4F120006509D;
+			productRefGroup = 09BA7E7A134E4F120006509D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09BA7E78134E4F120006509D /* TBNetwork */,
+				09BA7E8D134E4F120006509D /* TBNetworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09BA7E77134E4F120006509D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BA7E87134E4F120006509D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BA7E8B134E4F120006509D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BA7E98134E4F120006509D /* InfoPlist.strings in Resources */,
+				09BA7E9B134E4F120006509D /* TBNetworkTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09BA7E8C134E4F120006509D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09BA7E74134E4F120006509D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BA7EA9134E4F680006509D /* TBServer.m in Sources */,
+				09BA7EAE134E4F7D0006509D /* TBClient.m in Sources */,
+				09BA7EB3134E4F9F0006509D /* TBBonjourWrapper.m in Sources */,
+				09BA7EB8134E4FFB0006509D /* TBFileTransferConnection.m in Sources */,
+				09BA7EC1134E58050006509D /* TBConnection.m in Sources */,
+				0981EFFE136ADE43007A8D21 /* TBFileTransfer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BA7E89134E4F120006509D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BA7E9D134E4F120006509D /* TBNetworkTests.m in Sources */,
+				09BA7EAA134E4F680006509D /* TBServer.m in Sources */,
+				09BA7EAF134E4F7D0006509D /* TBClient.m in Sources */,
+				09BA7EB4134E4F9F0006509D /* TBBonjourWrapper.m in Sources */,
+				09BA7EB9134E4FFB0006509D /* TBFileTransferConnection.m in Sources */,
+				09BA7EC2134E58050006509D /* TBConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09BA7E91134E4F120006509D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09BA7E78134E4F120006509D /* TBNetwork */;
+			targetProxy = 09BA7E90134E4F120006509D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09BA7E85134E4F120006509D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09BA7E86134E4F120006509D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09BA7E96134E4F120006509D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09BA7E97134E4F120006509D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09BA7E9E134E4F120006509D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		09BA7E9F134E4F120006509D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		09BA7EA1134E4F120006509D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBNetwork/TBNetwork-Prefix.pch";
+				INFOPLIST_FILE = "TBNetwork/TBNetwork-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		09BA7EA2134E4F120006509D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBNetwork/TBNetwork-Prefix.pch";
+				INFOPLIST_FILE = "TBNetwork/TBNetwork-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		09BA7EA4134E4F120006509D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBNetworkTests/TBNetworkTests-Prefix.pch";
+				INFOPLIST_FILE = "TBNetworkTests/TBNetworkTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		09BA7EA5134E4F120006509D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBNetworkTests/TBNetworkTests-Prefix.pch";
+				INFOPLIST_FILE = "TBNetworkTests/TBNetworkTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09BA7E72134E4F120006509D /* Build configuration list for PBXProject "TBNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BA7E9E134E4F120006509D /* Debug */,
+				09BA7E9F134E4F120006509D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09BA7EA0134E4F120006509D /* Build configuration list for PBXNativeTarget "TBNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BA7EA1134E4F120006509D /* Debug */,
+				09BA7EA2134E4F120006509D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09BA7EA3134E4F120006509D /* Build configuration list for PBXNativeTarget "TBNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BA7EA4134E4F120006509D /* Debug */,
+				09BA7EA5134E4F120006509D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09BA7E6F134E4F120006509D /* Project object */;
+}

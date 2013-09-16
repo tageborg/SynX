@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:SynXGui/SynXGui.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SynX/SynX.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TBNetwork/TBNetwork.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SynXClient/SynXClient.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SynXServer/SynXServer.xcodeproj">
+   </FileRef>
+</Workspace>
